@@ -13,8 +13,3 @@ variable "resource_group_name" {
   type        = string
   sensitive   = false
 }
-variable "tags" {
-  description = " A mapping of tags to assign to the resource."
-  type        = map
-  default     = {}
-}

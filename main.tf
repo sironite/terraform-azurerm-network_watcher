@@ -4,5 +4,5 @@ resource "azurerm_network_watcher" "this" {
   resource_group_name = var.resource_group_name
 
   tags = var.tags
-  
+
 }

@@ -46,6 +46,7 @@ No modules.
 | Name | Description |
 |------|-------------|
 | azurerm\_network\_watcher\_id | The ID of the Network Watcher. |
+| azurerm\_network\_watcher\_name | The ID of the Network Watcher. |
 
 ## Related documentation
 <!-- END_TF_DOCS -->

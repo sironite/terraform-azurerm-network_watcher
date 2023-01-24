@@ -39,13 +39,14 @@ No modules.
 | azure\_location | The location/region where the virtual network is created. Changing this forces a new resource to be created. | `string` | yes |
 | network\_watcher\_name | The name of the Network Watcher. Changing this forces a new resource to be created. | `string` | yes |
 | resource\_group\_name | The name of the resource group in which to create the Network Watcher. Changing this forces a new resource to be created. | `string` | yes |
-| tags | A mapping of tags to assign to the resource. | `map` | no |
+| tags | A mapping of tags to assign to the resource. | `map(any)` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
 | azurerm\_network\_watcher\_id | The ID of the Network Watcher. |
+| azurerm\_network\_watcher\_name | The ID of the Network Watcher. |
 
 ## Related documentation
 <!-- END_TF_DOCS -->
